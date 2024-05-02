@@ -2,9 +2,6 @@ import random
 from game_data import data
 from art import logo, vs
 
-A = random.choice(data)
-B = random.choice(data)
-
 def Info_to_user(celebrety1, celebrety2):
     print(f"Compare A: {celebrety1['name']}, a {celebrety1['description']} from {celebrety1['country']}")
     print(f"{celebrety1['follower_count']}")
@@ -17,6 +14,9 @@ def game():
     print(logo)
 
     score = 0
+
+    A = random.choice(data)
+    B = random.choice(data)
 
     while True:
 
