@@ -4,10 +4,8 @@ from art import logo, vs
 
 def Info_to_user(celebrety1, celebrety2):
     print(f"Compare A: {celebrety1['name']}, a {celebrety1['description']} from {celebrety1['country']}")
-    print(f"{celebrety1['follower_count']}")
     print(vs)
     print(f"Against B: {celebrety2['name']}, a {celebrety2['description']} from {celebrety2['country']}")
-    print(f"{celebrety2['follower_count']}")
 
 
 def game():
