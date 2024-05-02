@@ -29,7 +29,7 @@ def game():
                 score += 1
 
                 B = random.choice(data)
-            
+
             else:
                 print(f"That's the wrong guess, You had a score of {score}")
                 break
