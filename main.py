@@ -16,6 +16,9 @@ def game():
     score = 0
 
     A = random.choice(data)
+    index_of_A = data.index(A)
+    print(index_of_A)
+    del data[index_of_A]
     B = random.choice(data)
 
     while True:
